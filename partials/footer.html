@@ -1,0 +1,23 @@
+    <div class="ms-Grid-row">
+
+    {{#each collections}}
+      <div class="ms-Grid-col  ms-u-sm4 ms-u-md3 ms-u-lg3">
+      <h4 class="ms-font-l" style="color:#cccccc"> {{@key}}</h4>
+
+      <ul class="ms-List">
+        {{#each this}} {{#if title}}
+        <li class="ms-ListItem ms-ListItem-tertiaryText"><a class="ms-link" style="color:#cccccc" href="/{{path}}">{{title}}</a></li>
+        {{/if}} {{/each}}
+      </ul>
+
+      </div>
+
+    {{/each}}
+</div>
+<div class="content">
+Created: {{stats.birthtime}}
+Changed:   {{stats.ctime}}
+</div>
+
+
+

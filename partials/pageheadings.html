@@ -1,0 +1,14 @@
+{{#if headings}}
+
+<h3 class="ms-font-l ">In this article:</h3>
+<div class="content">
+    <ul class="ms-List " >
+        {{#each headings}}
+        <li class="ms-ListItem ms-ListItem-tertiaryText">
+            <a class="ms-Link" href="#{{id}}">{{text}}</a>
+        </li>
+        {{/each}}
+    </ul>
+</div>
+
+{{/if}}

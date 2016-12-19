@@ -1,0 +1,28 @@
+{{#if softwarecatalogue}}
+<h2 class="ms-font-l">Software Catalogue</h2>
+
+{{#if softwarecataloguedatafound}} 
+<div class="content softwarecatalogue">
+    <div style="width:148px">
+        <img src="/assets/service-now-logo.png">
+    </div>
+
+<ul>
+   <li>Name: {{softwarecatalogue}}</li>
+    <li>Created: {{{softwarecataloguedata.sys_created_on}}}</li>
+    <li>Latest update: {{{softwarecataloguedata.sys_updated_on}}}</li>
+    <li>By: {{{softwarecataloguedata.sys_updated_by}}}</li>
+</ul>
+    {{{softwarecataloguedata.description}}}
+    <div style="display:none" >
+    <a href="https://xxx.service-now.com/cmdb_ci_spkg.do?sys_id={{softwarecataloguedata.sys_id}}" >Open in ServiceNow</a>
+    </div>
+        
+    
+</div>
+{{else}}
+<div class="content softwarecataloguemissing">
+    <b>{{softwarecatalogue}}</b> NOT found in SoftwareCatalogue
+</div>
+
+ {{/if}} {{/if}}

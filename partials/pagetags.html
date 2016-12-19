@@ -1,0 +1,10 @@
+{{#if tags}}
+        <h3 class="ms-font-l">Tags</h3>
+        <div class="content">
+          <ul class="ms-List " >
+            {{#each tags}}
+            <li class="ms-ListItem ms-ListItem-tertiaryText"><a href="/topics/{{slug}}.html" >{{name}}</a></li>
+            {{/each}}
+          </ul>
+        </div>
+{{/if}}

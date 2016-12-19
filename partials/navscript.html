@@ -1,0 +1,16 @@
+<script>
+        $(document).ready(function() {
+            if ($.fn.NavBar) {
+                $('.ms-NavBar').NavBar();
+            }
+            var BreadcrumbHTML = document.querySelector('.ms-Breadcrumb');
+            var Breadcrumb = new fabric['Breadcrumb'](BreadcrumbHTML);
+            $('#nav').affix({
+                offset: {     
+                top: $('#nav').offset().top,
+                bottom: ($('footer').outerHeight(true) + $('.application').outerHeight(true)) + 40
+                }
+            });
+
+        });
+</script>

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  {{> header }}
+</head>
+
+<body>
+
+  <div style="background-color:#000000">
+    <div class="centered-content">
+      {{> brand }}
+    </div>
+  </div>
+  <div style="background-color:#F4F4F4">
+    <div class="centered-content">
+      {{> nav }}
+    </div>
+  </div>
+  <div class="centered-content">
+    <div style="background-color:#ffffff">
+      <div class="ms-Grid">
+        {{> breadcrumb }}
+        <div class="ms-Grid-row">
+          <div class="ms-Grid-col  ms-u-sm6 ms-u-md8 ms-u-lg8">
+            <div class="content">
+              <ul>
+                {{#each pagination.files}} {{#if title}}
+                <li><a href="/{{path}}">{{title}} ({{ouruse}},{{collection}})</a></li>
+                {{/if}} {{/each}}
+              </ul>
+            </div>
+          </div>
+          <div class="ms-Grid-col ms-u-sm6 ms-u-md4 ms-u-lg4">
+            {{> brandicon}} {{> pageheadings}} {{> pagetags}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bottombackground">
+    <div class="centered-content">
+      {{> footer }}
+    </div>
+  </div>
+</body>
+
+</html>
+{{> navscript }}

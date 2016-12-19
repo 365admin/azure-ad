@@ -1,0 +1,58 @@
+{
+  "name": "365admin-azure-ad",
+  "version": "0.0.1",
+  "description": "**End-User Computing**.\r ![](/assets/siteicon.png)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/365admin/azure-ad.git"
+  },
+  
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
+    "express": "^4.14.0",
+    "glob": "^7.1.1",
+    "handlebars": "^4.0.5",
+    "highlighter": "^0.1.0",
+    "jstransformer-handlebars": "^1.0.0",
+    "lodash": "^4.16.6",
+    "lunr": "^0.7.2",
+    "metalsmith": "^2.3.0",
+    "metalsmith-assets": "^0.1.0",
+    "metalsmith-collections": "^0.9.0",
+    "metalsmith-debug": "^1.1.0",
+    "metalsmith-drafts": "0.0.1",
+    "metalsmith-headings": "^0.1.0",
+    "metalsmith-in-place": "^1.4.4",
+    "metalsmith-layouts": "^1.7.0",
+    "metalsmith-lunr": "^0.2.1",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-metallic": "^2.0.1",
+    "metalsmith-partial": "^0.1.0",
+    "metalsmith-paths": "^2.1.2",
+    "metalsmith-permalinks": "^0.5.0",
+    "metalsmith-reactjs": "^1.0.1",
+    "metalsmith-tags": "^2.0.0",
+    "metalsmith-writemetadata": "^0.4.5",
+    "office-ui-fabric": "^2.6.2",
+    "officegen": "^0.4.0",
+    "open": "0.0.5",
+    "q": "^1.4.1",
+    "react": "^15.3.2",
+    "unirest": "^0.5.1"
+  },
+  "author": "Niels Gregers Johansen (Timeboxer)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/365admin/azure-ad/issues"
+  },
+  "homepage": "https://github.com/365admin/azure-ad#readme"
+}
