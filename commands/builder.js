@@ -69,11 +69,11 @@ function build() {
                 //         description: 'The Articles listed here...'
                 //     }
                 // },
-                // Guides: {
-                //     pattern: 'guides/**/*.html',
+                // Hooks: {
+                //     pattern: 'hooks/**/*.html',
                 //     sortBy: 'title',
                 //     metadata: {
-                //         name: 'Guides',
+                //         name: 'Hooks',
                 //         description: 'The Articles listed here...'
                 //     }
                 // },
@@ -85,11 +85,11 @@ function build() {
                 //         description: 'The Articles listed here...'
                 //     }
                 // },
-                Help: {
-                    pattern: 'help/**/*.html',
+                About: {
+                    pattern: 'about/**/*.html',
                     sortBy: 'title',
                     metadata: {
-                        name: 'Help',
+                        name: 'About',
                         description: 'The Articles listed here...'
                     }
                 }

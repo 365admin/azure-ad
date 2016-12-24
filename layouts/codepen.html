@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  {{> header }}
+</head>
+
+<body data-spy="scroll" data-target=".scrollspy">
+
+  <div style="background-color:#000000">
+    <div class="centered-content">
+      {{> brand }}
+    </div>
+  </div>
+  <div style="background-color:#F4F4F4">
+    <div class="centered-content">
+      {{> nav }}
+    </div>
+  </div>
+  <div class="centered-content">
+    {{> informationclassification }}
+    <div style="background-color:#ffffff">
+      <div class="ms-Grid">
+        {{> breadcrumb }}
+        <div class="ms-Grid-row">
+          <div class="ms-Grid-col  ms-u-sm12 ms-u-md12 ms-u-lg8">
+            <div class="content">
+              {{{ contents }}}
+              {{> codepen }}
+              
+            </div>
+          </div>
+          <div class="ms-u-hiddenSm ms-u-hiddenMd ms-Grid-col ms-u-lg4 nav scrollspy" id = "nav" data-spy="affix">
+            {{> brandicon}} {{> pageheadings}} {{> pagetags}} {{> source}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bottombackground">
+    <div class="centered-content">
+      {{> footer }}
+    </div>
+    </div>
+  <a class="ms-link" href=".?path=/docs/{{path}}.md&version=GBmaster&_a=contents">Source</a>
+</body>
+
+</html>
+{{> navscript }}
