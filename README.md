@@ -1,18 +1,10 @@
-**Azure AD**.
-
-
-Current build is available at 
-
-https://xxxx
-
+# 365admin.net
 
 We use Markdown as the format, an organizes the documents in the following directory structure
 
     docs
     docs\assets
-    docs\designs
-    docs\guides
-    docs\policies
+    docs\about
     
 Commands supported
 
