@@ -4,15 +4,9 @@ frontpage: true
 title: 365admin
 ---
 # 365admin
-We are building a awesome tool for administrators of e.g. Office365 based on an online service which are 
-able to configure Office365 environments and populate them with relevant data.
+Out purpose is to drive a community for technicians administrating Office365, Azure and potentially also other online services.
 
-The soon to be release first version will cover the following plans.
+Build and share relevant resources like PowerShell scripts, test case and integration components relevant for managing the services in scope. We are in the very early phase, wan't to know more please contact (mailto:niels@365admin.net)
 
-- Core 
-- Plus
-- Enterprise
-
-While we are getting our brand ready, we let join enjoy the view of our guardian vikings.
 
 ![](assets/vikings.jpg)
